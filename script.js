@@ -135,7 +135,7 @@ function convertir() {
     
   
 
-const dolardes =  {id: 1,valor: 203.05, nombre: "Dolar"};
+const dolardes =  {id: 1,valor: 203.50, nombre: "Dolar"};
 const eurodes = {id: 2,valor: 123.33, nombre: "Euro"};
 const yendes = {id: 3,valor: 0.91, nombre: "Yen"};
 const realdes = {id: 4,valor: 23.85, nombre: "Real"};
