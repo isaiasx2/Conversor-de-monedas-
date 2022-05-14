@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >calculadora de valor del peso argentino</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" ></script> 
+    <script  src="script.js" defer ></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body id="principal" >
+    <header ><h1 ID="encabezado" >BIENVENIDO</h1></header>
+   
+    
+
+   <div id="div1">
+       
+       
+    
+     
+        <h3>Seleccionar moneda cambiar</h3>
+        
+        <input type="radio" name="cambio" id="dol" class="inputs">Dolar
+        
+        <input  type="radio" name="cambio" id="eur" class="inputs">Euro
+        
+        <input  type="radio" name="cambio" id="yen" class="inputs">Yen
+       
+        <input  type="radio" name="cambio" id="real" class="inputs">Real
+       
+        
+        
+
+    
+    </div>
+    <div id="div2">
+        <h3 id="ingMonto">Ingrese monto EN PESOS</h3>
+        <input type="number" id="valor" min="1" max="100000" placeholder="Ingrese monto  a cambiar EN PESOS">
+        <input type="button" id="cotizador" value="Cotizar">
+        
+    </div>
+    
+    <div id="div3" class="div3">
+        <input type="button" name="DOLAR HOY" value="DOLAR HOY" id="boton1" class="botones">
+        
+        <input type="button" name="EURO HOY" value="EURO HOY" id="boton2" class="botones">
+       
+        <input type="button" name="YEN HOY" value="YEN HOY" id="boton3" class="botones">
+        
+        <input type="button" name="REAL HOY" value="REAL HOY" id="boton4" class="botones">
+    </div>
+    
+    <div id="datos">
+
+        <section><h2 id="tabla-valores">Valores actualizados<br><span>(10 dias)</span></h2></section>
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th class="fecha"">FECHA</th>
+                    <th class="valor">VALOR</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+                
+
+            </tbody>
+            
+            
+        </table>
+        
+
+    </div>
+
+
+
+    
+</body>
+<footer></footer>
+
+
+</html>
+
